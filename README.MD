@@ -27,3 +27,6 @@
 ==必须==
 
 要执行的文件目录
+
+### License
+Apache Licene 2.0
