@@ -13,7 +13,7 @@
     "rev",
     "rev-replace",
     "gulp replace",
-    "gulp-hashfiles",
+    "gulp-verfiles",
     "gulp cache"
   ],
   "license": "ISC",
