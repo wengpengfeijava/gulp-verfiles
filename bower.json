@@ -1,0 +1,28 @@
+{
+  "name": "gulp-hashfiles",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "wengpengfei <466077335@qq.com>"
+  ],
+  "keywords": [
+    "gulp",
+    "gulp + requirejs",
+    "gulp requirejs",
+    "gulp hash",
+    "rev",
+    "rev-replace",
+    "gulp replace",
+    "gulp-hashfiles",
+    "gulp cache"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wengpengfeijava/gulp-hashfiles",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

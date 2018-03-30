@@ -1,0 +1,26 @@
+{
+  "name": "gulp-hashfiles",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "gulp + requirejs",
+    "gulp requirejs",
+    "gulp hash",
+    "rev",
+    "rev-replace",
+    "gulp replace",
+    "gulp-hashfiles",
+    "gulp cache"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "through2": "^2.0.3"
+  }
+}
