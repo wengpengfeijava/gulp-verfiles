@@ -4,20 +4,58 @@
 
 ## 使用方式
 
-> `npm install gulp-hashfiles`
+> `npm install gulp-verfiles`
 
 ```javascript
-    var gulpHashFiles = require('gulp-hashfiles');
+    var gulpVerFiles = require('gulp-verfiles');
 
     gulp.task('test', () => {
         return gulp.src("./src")
 
-        .pipe(gulpHashFiles({
+        .pipe(gulpVerFiles({
             src: path.resolve(__dirname, './src')
         }))
 
         .pipe(gulp.dest("./dist"))
     })
+```
+
+## 执行前
+
+- src
+    - imgs
+        - logo.png
+    - scripts
+        - user
+            - index.js
+        - order
+            - index.js
+    - app.js
+
+1. app.js
+
+```javascript
+    var orderIndex = "scripts/order/index.js";
+    var userIndex = "scripts/user/index.js";
+```
+
+## 执行后
+
+- src
+    - imgs
+        - logo_85mfnsk1e.png
+    - scripts
+        - user
+            - index_k3nmfk3m.js
+        - order
+            - index_kljn3k45.js
+    - app_jm4m5j12m34.js
+
+- app_jm4m5j12m34.js
+
+```javascript
+    var orderIndex = "scripts/order/index_kljn3k45.js";
+    var userIndex = "scripts/user/index_k3nmfk3m.js";
 ```
 
 ## 参数
